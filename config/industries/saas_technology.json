@@ -1,0 +1,58 @@
+{
+  "industry": "saas_technology",
+  "display_name": "SaaS & Technology Platforms",
+  "description": "Software as a Service, cloud platforms, and technology solutions",
+  "regulatory_complexity": "medium",
+  "data_sensitivity": "high",
+  "typical_switching_timeline": "2-6_months",
+  "complexity_factors": {
+    "technical_integration": 9,
+    "data_migration": 7,
+    "user_training": 8,
+    "workflow_disruption": 8,
+    "customization_recreation": 9
+  },
+  "switching_barriers": [
+    {
+      "category": "technical",
+      "name": "api_integration_complexity",
+      "severity": 9,
+      "description": "Third-party integrations and custom API connections",
+      "mitigation_strategies": ["integration_mapping", "parallel_api_testing"]
+    },
+    {
+      "category": "organizational",
+      "name": "user_workflow_disruption", 
+      "severity": 8,
+      "description": "Established user processes and workflow dependencies",
+      "mitigation_strategies": ["gradual_migration", "extensive_training_program"]
+    },
+    {
+      "category": "economic",
+      "name": "customization_recreation",
+      "severity": 9,
+      "description": "Custom fields, workflows, and configuration rebuilding",
+      "mitigation_strategies": ["configuration_mapping", "automated_setup_tools"]
+    }
+  ],
+  "facilitation_strategies": [
+    "parallel_platform_operation",
+    "automated_data_migration_tools",
+    "comprehensive_training_programs",
+    "integration_partnership_ecosystem",
+    "gradual_feature_migration"
+  ],
+  "success_metrics": [
+    "user_adoption_rate",
+    "workflow_efficiency_improvement",
+    "integration_uptime",
+    "feature_utilization_rate",
+    "customer_productivity_metrics"
+  ],
+  "timeline_phases": {
+    "phase_1_setup": "2-4_weeks",
+    "phase_2_data_migration": "4-8_weeks",
+    "phase_3_user_training": "4-6_weeks", 
+    "phase_4_full_adoption": "8-12_weeks"
+  }
+}

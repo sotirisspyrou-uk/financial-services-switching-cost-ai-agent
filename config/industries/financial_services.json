@@ -1,0 +1,58 @@
+{
+  "industry": "financial_services",
+  "display_name": "Financial Services",
+  "description": "Banking, lending, insurance, and financial technology platforms",
+  "regulatory_complexity": "high",
+  "data_sensitivity": "maximum",
+  "typical_switching_timeline": "6-18_months",
+  "complexity_factors": {
+    "regulatory_compliance": 9,
+    "data_migration": 8,
+    "customer_communication": 8,
+    "training_requirements": 7,
+    "integration_complexity": 8
+  },
+  "switching_barriers": [
+    {
+      "category": "regulatory",
+      "name": "compliance_requirements",
+      "severity": 9,
+      "description": "SOX, Basel III, GDPR, and industry-specific regulations",
+      "mitigation_strategies": ["parallel_compliance_audit", "regulatory_expert_consultation"]
+    },
+    {
+      "category": "technical", 
+      "name": "data_migration",
+      "severity": 8,
+      "description": "Customer data, transaction history, and regulatory reporting",
+      "mitigation_strategies": ["phased_migration", "parallel_system_operation"]
+    },
+    {
+      "category": "organizational",
+      "name": "customer_communication",
+      "severity": 8,
+      "description": "Account holder notifications and consent management",
+      "mitigation_strategies": ["white_glove_communication", "dedicated_support_team"]
+    }
+  ],
+  "facilitation_strategies": [
+    "parallel_system_operation",
+    "white_glove_migration_service", 
+    "dedicated_regulatory_support",
+    "phased_transition_approach",
+    "customer_communication_automation"
+  ],
+  "success_metrics": [
+    "regulatory_compliance_maintenance",
+    "customer_satisfaction_score",
+    "business_continuity_uptime",
+    "data_migration_accuracy",
+    "post_migration_feature_adoption"
+  ],
+  "timeline_phases": {
+    "phase_1_foundation": "1-3_months",
+    "phase_2_parallel_operation": "3-6_months", 
+    "phase_3_full_migration": "6-12_months",
+    "phase_4_optimization": "12-18_months"
+  }
+}

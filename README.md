@@ -1,4 +1,4 @@
-# Switching Cost Facilitation AI Agent
+# Financial Servcices > Bank Switching Facilitation > AI Agent
 
 **Authored by:** Sotiris Spyrou, CEO, VerityAI  
 **Date:** September 5, 2025  
